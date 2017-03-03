@@ -1,0 +1,1 @@
+codesign -s "Developer ID Application: Stichting SMG (P92XQLN5T4)" -v /Volumes/PROJECTS/Projects/Live\ MTC\ Bridge/Live\ MTC\ Bridge/App/Live\ MTC\ V0.12/Live\ MTC\ Bridge.app -f
