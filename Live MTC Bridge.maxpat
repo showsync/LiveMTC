@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 89.0, 464.0, 411.0 ],
+		"rect" : [ 59.0, 89.0, 1393.0, 904.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,19 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-125",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1155.0, 429.0, 189.0, 20.0 ],
+					"text" : "Custom work for Paul Jebanasam"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -115,7 +127,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -149,6 +161,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -220,7 +233,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -254,6 +267,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-3",
@@ -708,7 +722,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -742,15 +756,17 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-18",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 572.0, 56.0, 76.0, 22.0 ],
-													"text" : "\"25 FPS\""
+													"text" : "\"23.976 FPS\""
 												}
 
 											}
@@ -1656,11 +1672,11 @@
 					"presentation_rect" : [ 358.0, 270.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[17]",
+							"parameter_mmax" : 30.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[17]",
-							"parameter_mmax" : 30.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -1685,11 +1701,11 @@
 					"presentation_rect" : [ 243.0, 270.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[18]",
+							"parameter_mmax" : 59.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[18]",
-							"parameter_mmax" : 59.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -1714,11 +1730,11 @@
 					"presentation_rect" : [ 127.0, 270.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[19]",
+							"parameter_mmax" : 59.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[19]",
-							"parameter_mmax" : 59.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -1743,11 +1759,11 @@
 					"presentation_rect" : [ 10.0, 270.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[20]",
+							"parameter_mmax" : 23.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[20]",
-							"parameter_mmax" : 23.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -1858,7 +1874,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 739.0, 882.0, 50.0, 22.0 ],
-					"text" : "2 0 0 0"
+					"text" : "0 0 0 0"
 				}
 
 			}
@@ -1874,7 +1890,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1908,6 +1924,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 0,
@@ -2163,7 +2180,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2197,6 +2214,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-18",
@@ -2489,12 +2507,12 @@
 					"presentation_rect" : [ 121.0, 53.0, 34.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_units" : "BPM",
 							"parameter_longname" : "live.numbox[16]",
-							"parameter_mmax" : 16.0
+							"parameter_mmax" : 16.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -2535,12 +2553,12 @@
 					"presentation_rect" : [ 78.0, 53.0, 34.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_units" : "BPM",
 							"parameter_longname" : "live.numbox[15]",
-							"parameter_mmax" : 99.0
+							"parameter_mmax" : 99.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -2569,12 +2587,12 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"outlettype" : [ "int", "int", "int", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2608,6 +2626,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "(int) signature numerator",
@@ -2878,7 +2897,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -2912,6 +2931,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-17",
@@ -3961,7 +3981,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -3995,6 +4015,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-96",
@@ -4294,7 +4315,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -4328,6 +4349,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-96",
@@ -4627,7 +4649,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -4661,6 +4683,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-96",
@@ -5404,12 +5427,12 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
+					"outlettype" : [ "int", "int", "int", "int", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -5443,6 +5466,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -5650,7 +5674,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -5684,6 +5708,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-17",
@@ -6667,7 +6692,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -6701,6 +6726,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-96",
@@ -7000,7 +7026,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -7034,6 +7060,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-96",
@@ -7333,7 +7360,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -7367,6 +7394,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-96",
@@ -7666,7 +7694,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -7700,6 +7728,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-96",
@@ -8475,13 +8504,13 @@
 					"presentation_rect" : [ 167.0, 53.0, 69.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 2,
 							"parameter_units" : "BPM",
 							"parameter_mmin" : -1000.0,
 							"parameter_longname" : "live.numbox[14]",
-							"parameter_mmax" : 1000.0
+							"parameter_mmax" : 1000.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2
 						}
 
 					}
@@ -8628,12 +8657,12 @@
 					"presentation_rect" : [ 401.0, 168.0, 53.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.text",
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_type" : 2,
 							"parameter_longname" : "live.text",
 							"parameter_invisible" : 2,
-							"parameter_mmax" : 1
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -8657,7 +8686,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -8691,6 +8720,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
@@ -8940,7 +8970,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -8974,6 +9004,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -9045,7 +9076,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -9079,6 +9110,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-3",
@@ -9533,7 +9565,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -9567,15 +9599,17 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-18",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 572.0, 56.0, 76.0, 22.0 ],
-													"text" : "\"25 FPS\""
+													"text" : "\"23.976 FPS\""
 												}
 
 											}
@@ -10401,11 +10435,11 @@
 					"presentation_rect" : [ 358.0, 188.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[10]",
+							"parameter_mmax" : 29.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[10]",
-							"parameter_mmax" : 29.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -10430,11 +10464,11 @@
 					"presentation_rect" : [ 243.0, 188.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[11]",
+							"parameter_mmax" : 59.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[11]",
-							"parameter_mmax" : 59.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -10459,11 +10493,11 @@
 					"presentation_rect" : [ 127.0, 188.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[12]",
+							"parameter_mmax" : 59.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[12]",
-							"parameter_mmax" : 59.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -10488,12 +10522,12 @@
 					"presentation_rect" : [ 10.0, 188.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
 							"parameter_longname" : "live.numbox[13]",
 							"parameter_invisible" : 2,
-							"parameter_mmax" : 23.0
+							"parameter_mmax" : 23.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -10621,7 +10655,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -10655,6 +10689,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -10849,7 +10884,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -10883,6 +10918,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
@@ -11098,7 +11134,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -11132,6 +11168,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -11519,7 +11556,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -11553,6 +11590,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -11898,12 +11936,12 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "path" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -11937,6 +11975,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 0,
@@ -12840,7 +12879,7 @@
 					"fontface" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-7",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "Video Slave MTC In (virtual)", ",", "Video Slave MMC In (virtual)", ",", "Video Slave HUI In 1 (virtual)", ",", "Video Slave HUI In 2 (virtual)", ",", "Video Slave HUI In 3 (virtual)", ",", "Video Slave HUI In 4 (virtual)", ",", "Video Slave Trigger In (virtual)", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -12867,11 +12906,11 @@
 					"presentation_rect" : [ 321.0, 53.0, 132.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.menu[1]",
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.menu",
 							"parameter_enum" : [ " ", " " ],
-							"parameter_type" : 2,
-							"parameter_longname" : "live.menu[1]",
-							"parameter_mmax" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -12926,10 +12965,10 @@
 					"presentation_rect" : [ 244.0, 106.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[5]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[5]"
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -12955,10 +12994,10 @@
 					"presentation_rect" : [ 127.0, 106.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[8]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[8]"
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -12984,11 +13023,11 @@
 					"presentation_rect" : [ 10.0, 105.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[9]",
+							"parameter_mmax" : 2147483648.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[9]",
-							"parameter_mmax" : 2147483648.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -13012,7 +13051,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -13046,6 +13085,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "(int) signature numerator",
@@ -13486,11 +13526,11 @@
 					"patching_rect" : [ 215.5, 165.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.toggle",
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.toggle",
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "live.toggle",
-							"parameter_mmax" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -13514,11 +13554,11 @@
 					"presentation_rect" : [ 358.0, 354.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[4]",
+							"parameter_mmax" : 30.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[4]",
-							"parameter_mmax" : 30.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -13543,11 +13583,11 @@
 					"presentation_rect" : [ 243.0, 354.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[3]",
+							"parameter_mmax" : 59.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[3]",
-							"parameter_mmax" : 59.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -13572,11 +13612,11 @@
 					"presentation_rect" : [ 127.0, 354.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[2]",
+							"parameter_mmax" : 59.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[2]",
-							"parameter_mmax" : 59.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -13601,11 +13641,11 @@
 					"presentation_rect" : [ 10.0, 354.0, 96.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.numbox[1]",
+							"parameter_mmax" : 23.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.numbox[1]",
-							"parameter_mmax" : 23.0
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -13643,12 +13683,12 @@
 					"presentation_rect" : [ 10.0, 53.0, 63.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 9,
 							"parameter_units" : "BPM",
 							"parameter_longname" : "live.numbox[7]",
-							"parameter_mmax" : 300000.0
+							"parameter_mmax" : 300000.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 9
 						}
 
 					}
@@ -13714,7 +13754,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -13748,6 +13788,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 0,
@@ -14195,7 +14236,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -14229,6 +14270,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -14389,7 +14431,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 501.5, 603.0, 180.0, 22.0 ],
-									"text" : "240 127 127 1 1 5 0 0 2 247"
+									"text" : "240 127 127 1 1 0 3 19 21 247"
 								}
 
 							}
@@ -14503,7 +14545,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -14537,15 +14579,17 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-18",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 572.0, 56.0, 76.0, 22.0 ],
-													"text" : "\"25 FPS\""
+													"text" : "\"23.976 FPS\""
 												}
 
 											}
@@ -15236,7 +15280,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -15270,6 +15314,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -16844,7 +16889,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -16878,6 +16923,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.839216, 0.588235, 0.172549, 1.0 ],
@@ -16892,7 +16938,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -16926,6 +16972,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -17450,7 +17497,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
+											"minor" : 1,
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -17484,6 +17531,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-3",
@@ -18677,11 +18725,11 @@
 					"presentation_rect" : [ 238.0, 53.0, 81.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.menu",
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.menu",
 							"parameter_enum" : [ " ", " " ],
-							"parameter_type" : 2,
-							"parameter_longname" : "live.menu",
-							"parameter_mmax" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -19645,33 +19693,34 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-83" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-15" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-134" : [ "live.numbox[15]", "live.numbox", 0 ],
 			"obj-107" : [ "live.numbox[19]", "live.numbox", 0 ],
+			"obj-28" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-81" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-12" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-6" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-17" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-106" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-135" : [ "live.numbox[16]", "live.numbox", 0 ],
+			"obj-83" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-103" : [ "live.numbox[17]", "live.numbox", 0 ],
+			"obj-109" : [ "live.numbox[14]", "live.numbox", 0 ],
 			"obj-84" : [ "live.numbox[13]", "live.numbox", 0 ],
+			"obj-15" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-97" : [ "live.text", "live.text", 0 ],
+			"obj-112" : [ "live.numbox[20]", "live.numbox", 0 ],
 			"obj-21" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"obj-82" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-16" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-28" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-106" : [ "live.numbox[18]", "live.numbox", 0 ],
-			"obj-109" : [ "live.numbox[14]", "live.numbox", 0 ],
-			"obj-135" : [ "live.numbox[16]", "live.numbox", 0 ],
-			"obj-22" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-103" : [ "live.numbox[17]", "live.numbox", 0 ],
-			"obj-4" : [ "live.menu", "live.menu", 0 ],
-			"obj-97" : [ "live.text", "live.text", 0 ],
 			"obj-8" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-12" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-20" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-112" : [ "live.numbox[20]", "live.numbox", 0 ],
-			"obj-6" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-81" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-17" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-22" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-16" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-4" : [ "live.menu", "live.menu", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
