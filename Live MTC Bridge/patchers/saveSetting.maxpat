@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "(bang) refresh",
@@ -65,11 +66,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"linecount" : 9,
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "from Live MTC Bridge 1" ],
+					"outlettype" : [ "23.976 FPS" ],
 					"patching_rect" : [ 72.166663999999997, 266.0, 31.0, 129.0 ],
 					"text" : "t #2"
 				}
