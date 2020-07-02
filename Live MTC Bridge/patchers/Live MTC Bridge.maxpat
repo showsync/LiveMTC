@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 614.0, 192.0, 463.0, 411.0 ],
+		"rect" : [ 34.0, 79.0, 1775.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-137",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 90.0, 761.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -287,9 +298,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 32.166663999999997, 606.5, 34.0, 23.0 ],
-					"text" : "t b b"
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 36.166663999999997, 630.5, 29.5, 23.0 ],
+					"text" : "t b l"
 				}
 
 			}
@@ -10622,7 +10633,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.416655999999989, 652.5, 109.0, 18.0 ],
+					"patching_rect" : [ 45.666663999999997, 706.5, 109.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 321.0, 35.0, 111.0, 18.0 ],
 					"text" : "Destination MIDI port"
@@ -11071,20 +11082,6 @@
 					}
 ,
 					"text" : "p beats2Seconds"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-56",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 32.166663999999997, 572.5, 143.0, 23.0 ],
-					"text" : "qmetro 1000 @active 1"
 				}
 
 			}
@@ -11891,7 +11888,6 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
-					"hidden" : 1,
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -11908,6 +11904,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
+					"hidden" : 1,
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -11946,7 +11943,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 72.666663999999997, 698.5, 274.0, 22.0 ],
+					"patching_rect" : [ 152.166663999999969, 679.5, 274.0, 22.0 ],
 					"text" : "saveSetting midioutport \"from Live MTC Bridge 1\""
 				}
 
@@ -13366,10 +13363,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -13379,10 +13379,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -13391,6 +13388,8 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -13400,9 +13399,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -13435,8 +13432,8 @@
 , 							{
 								"name" : "multislider001",
 								"default" : 								{
-									"bgcolor" : [ 0.945827, 0.711942, 0.174445, 0.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.945827, 0.711942, 0.174445, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13604,7 +13601,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 32.166663999999997, 673.5, 100.0, 20.0 ],
+					"patching_rect" : [ 46.666663999999997, 679.5, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 321.0, 51.0, 132.0, 20.0 ],
 					"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
@@ -13620,7 +13617,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 150.416655999999989, 673.5, 93.0, 15.0 ],
+					"patching_rect" : [ 46.666663999999997, 727.5, 93.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 321.0, 53.0, 132.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -14181,8 +14178,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.166663999999997, 645.5, 55.0, 23.0 ],
-					"text" : "midiinfo"
+					"patching_rect" : [ 36.166663999999997, 593.5, 163.0, 23.0 ],
+					"text" : "midiinfo @autopolloutput 1"
 				}
 
 			}
@@ -19651,7 +19648,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-121", 1 ]
 				}
 
@@ -19977,7 +19974,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-121", 0 ],
+					"order" : 1,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-137", 0 ],
+					"order" : 0,
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -20152,13 +20158,6 @@
 					"destination" : [ "obj-59", 1 ],
 					"order" : 1,
 					"source" : [ "obj-54", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-121", 0 ],
-					"source" : [ "obj-56", 0 ]
 				}
 
 			}
