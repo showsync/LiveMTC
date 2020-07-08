@@ -25,11 +25,11 @@ function show() {
 		}
 	}
 	if (totalRectangle) {
-		post("set area to " + totalRectangle);
+		//post("set area to " + totalRectangle);
 		outlet(1, totalRectangle);
 	}
 	else {
-		post(arrayfromargs(arguments), "not part of known areas");
+		post(arrayfromargs(arguments), "not part of known areas", "\n");
 	}
 }
 
