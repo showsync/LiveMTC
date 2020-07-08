@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 378.0, 824.0, 290.0, 527.0 ],
+		"rect" : [ 451.0, 381.0, 290.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 19.0, 25.0, 25.0 ]
+					"patching_rect" : [ 81.5, 19.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -66,12 +66,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "23.976 FPS" ],
-					"patching_rect" : [ 72.166663999999997, 266.0, 31.0, 129.0 ],
+					"patching_rect" : [ 72.166663999999997, 266.0, 87.0, 22.0 ],
 					"text" : "t #2"
 				}
 
@@ -83,7 +82,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 72.166663999999997, 236.0, 46.0, 22.0 ],
+					"patching_rect" : [ 72.166666666666657, 232.0, 46.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -114,6 +113,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.0, 0.996078431372549, 0.07843137254902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-58",
@@ -148,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 91.833336000000003, 391.0, 74.0, 22.0 ],
+					"patching_rect" : [ 91.833336000000003, 387.0, 74.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -217,6 +217,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.0, 0.996078431372549, 0.07843137254902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-39",
@@ -224,7 +225,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.5, 56.0, 113.0, 22.0 ],
+					"patching_rect" : [ 123.5, 22.0, 113.0, 22.0 ],
 					"text" : "r loadSettingsDone"
 				}
 
@@ -279,7 +280,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
-					"midpoints" : [ 95.166663999999997, 268.0, 189.083327999999995, 268.0, 189.083327999999995, 159.0, 91.0, 159.0 ],
+					"midpoints" : [ 95.166666666666657, 262.0, 189.083327999999995, 262.0, 189.083327999999995, 159.0, 91.0, 159.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
