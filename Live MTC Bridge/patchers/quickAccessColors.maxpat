@@ -84,7 +84,6 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1164.333332538604736, 254.333334863185883, 172.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0.686275 0.686275 0.686275 1."
 				}
 
@@ -99,7 +98,6 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1353.333332538604736, 254.333334863185883, 172.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0.176471 0.176471 0.176471 1."
 				}
 
@@ -114,7 +112,6 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 786.333332538604736, 254.333334863185883, 172.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0.176471 0.176471 0.176471 1."
 				}
 
@@ -129,7 +126,6 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 975.333332538604736, 254.333334863185883, 172.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0.686275 0.686275 0.686275 1."
 				}
 
@@ -255,8 +251,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.333332538604736, 19.00000125169754, 82.0, 22.0 ],
-					"text" : "r s-toEditDark"
+					"patching_rect" : [ 226.333332538604736, 19.00000125169754, 140.0, 22.0 ],
+					"text" : "r s-toQuickAccessColors"
 				}
 
 			}
