@@ -21,7 +21,7 @@ Prepping:
 Every release:
 - Build the application from Max (to a folder App)
 
-- add this CFBundleName field :
+- add this CFBundleName field under <key>CFBundleExecutable</key>:
 	<key>CFBundleName</key>
 	<string>Live MTC Bridge</string>
   to the Contents/Info.plist (right-click -> Show Package Contents) 
@@ -29,7 +29,6 @@ Every release:
 - codesign -f -s "Developer ID Application: Stichting SMG (P92XQLN5T4)" -v --entitlements <path-to-entitlements-xml-file>/Live\ MTC\ Bridge.xml --deep --options runtime <path-to-app>/Live\ MTC\ Bridge.app
 
 - xcnotary notarize <path-to-app>/Live\ MTC\ Bridge.app  --developer-account <your-apple-developer-account> --developer-password-keychain-item <the-label-name-of-the-app-specific-password-you-saved-in-your-keychain>
-
 
 Background info:
 https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow?language=objc
