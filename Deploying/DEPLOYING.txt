@@ -21,10 +21,16 @@ Prepping:
 Every release:
 - Build the application from Max (to a folder App)
 
-- add this CFBundleName field under <key>CFBundleExecutable</key>:
+- Mac : add this CFBundleName field under <key>CFBundleExecutable</key>:
 	<key>CFBundleName</key>
 	<string>Live MTC Bridge</string>
   to the Contents/Info.plist (right-click -> Show Package Contents) 
+  
+  then
+
+  add the entire fonts folder(found in the repo under "Live MTC Bridge/other") to : "Contents/Resources/C74"
+
+  Windows : add the entire fonts folder(found in the repo under "Live MTC Bridge/other") to : "Live MTC Bridge/resources"
 
 - codesign -f -s "Developer ID Application: Stichting SMG (P92XQLN5T4)" -v --entitlements <path-to-entitlements-xml-file>/Live\ MTC\ Bridge.xml --deep --options runtime <path-to-app>/Live\ MTC\ Bridge.app
 
