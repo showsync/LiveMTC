@@ -1,1 +1,3 @@
 /Live MTC Bridge/data/LiveMtcBridgeSettings.json
+.DS_Store
+dist/
