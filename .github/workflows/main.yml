@@ -19,7 +19,7 @@ jobs:
         registry-url: 'https://npm.pkg.github.com'
 
     - name: Check
-      run: npx @showsync/amxd-tools check --source MTC\ project/ --all
+      run: npx @showsync/amxd-tools check --source MTC\ project/ --dependency MTC\ project/ --all
       env:
         NODE_AUTH_TOKEN: ${{ secrets.BUILD_READ_PACKAGES }}
 
