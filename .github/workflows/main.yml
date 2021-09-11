@@ -15,7 +15,7 @@ jobs:
 
     - uses: actions/setup-node@v1
       with:
-        node-version: '10.x'
+        node-version: '14'
         registry-url: 'https://npm.pkg.github.com'
 
     - name: Check
