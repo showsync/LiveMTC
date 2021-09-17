@@ -27,7 +27,10 @@ jobs:
       run: npx @showsync/amxd-tools freeze --source MTC\ project/ --dependency MTC\ project/ --target dist/
       env:
         NODE_AUTH_TOKEN: ${{ secrets.BUILD_READ_PACKAGES }}
-
+        
+    - name: add url file to artifact folder
+      run: cp _LiveMTC-Manual.url dist/_LiveMTC-Manual.url
+      
     - uses: actions/upload-artifact@v2
       with:
         name: dist
