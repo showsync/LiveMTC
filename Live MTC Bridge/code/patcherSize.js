@@ -3,7 +3,8 @@ outlets = 2;
 
 function listAreas() {
 	var areas = getAreas();
-	for each (area in areas) {
+	for (var i = 0; i < areas.length; i++) {
+		var area = areas[i];
 		outlet(0, area.areaName, area.rectangle);
 	}
 }
@@ -11,8 +12,12 @@ function listAreas() {
 function show() {
 	var totalRectangle = null;
 	if (arguments.length > 0) {
-		for each (areaName in arrayfromargs(arguments)) {
-			for each (area in getAreas()) {
+		var args = arrayfromargs(arguments);
+		for (var i = 0; i < args.length; i++) {
+			var areaName = args[i];
+			var areas = getAreas();
+			for (var j = 0; j < areas.length; j++) {
+				var area = areas[j];
 				if (area.areaName == areaName) {
 					if (totalRectangle) {
 						totalRectangle = merge(totalRectangle, area.rectangle);
