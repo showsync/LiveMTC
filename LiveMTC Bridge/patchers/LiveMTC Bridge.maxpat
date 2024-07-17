@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 502.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -22024,7 +22024,7 @@
 					"patching_rect" : [ 2092.0, 87.337891000000013, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "",
+						"appicon_mac" : "macOS:/Users/jean-paul/Documents/GitHub/LiveMTC/LiveMTC Bridge/other/icon.icns",
 						"appicon_win" : "",
 						"audiosupport" : 0,
 						"bundleidentifier" : "info.showsync.livemtc",
@@ -22037,7 +22037,7 @@
 						"midisupport" : 1,
 						"noloadbangdefeating" : 0,
 						"overdrive" : 1,
-						"preffilename" : "Live MTC Bridge",
+						"preffilename" : "LiveMTC Bridge",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
 						"usesearchpath" : 0
