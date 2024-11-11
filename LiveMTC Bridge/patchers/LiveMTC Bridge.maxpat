@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 80.0, 121.0, 495.0, 292.0 ],
+		"rect" : [ 34.0, 87.0, 495.0, 292.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,296 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-89",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 4,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 34.0, 87.0, 413.0, 271.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 282.0, 101.0, 110.0, 22.0 ],
+									"text" : "routepass textcolor"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.819607843137255, 0.486274509803922, 0.450980392156863, 1.0 ],
+									"id" : "obj-268",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 76.0, 23.0, 58.0, 22.0 ],
+									"text" : "r bgColor"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.819607843137255, 0.486274509803922, 0.450980392156863, 1.0 ],
+									"id" : "obj-36",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 282.0, 62.0, 103.0, 22.0 ],
+									"text" : "r animationColors"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 22.0, 23.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 22.0, 101.0, 130.0, 22.0 ],
+									"text" : "setConnectionState $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Ableton Sans Medium Regular",
+									"fontsize" : 9.5,
+									"id" : "obj-70",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 22.0, 236.0, 140.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 178.0, 86.0, 139.0, 18.0 ],
+									"text" : "Waiting for MTC device",
+									"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 162.0, 101.0, 105.0, 22.0 ],
+									"text" : "setActiveCircle $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "newobj",
+									"numinlets" : 5,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "", "", "int" ],
+									"patching_rect" : [ 162.0, 62.0, 61.0, 22.0 ],
+									"text" : "counter 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-47",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 162.0, 23.0, 126.0, 22.0 ],
+									"text" : "qmetro 250 @active 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "connectionAnimation.js",
+									"id" : "obj-2",
+									"jsarguments" : [ 0 ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 22.0, 170.0, 69.0, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 213.0, 64.0, 69.0, 19.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 0.0,
+									"bgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
+									"bordercolor" : [ 0.997388422489166, 1.0, 0.041325956583023, 1.0 ],
+									"id" : "obj-152",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 76.0, 62.0, 22.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 0.0, 495.0, 162.0 ],
+									"proportion" : 0.5,
+									"rounded" : 0
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-70", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-152", 0 ],
+									"source" : [ "obj-268", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 0.8196078431, 0.4862745098, 0.4509803922, 1.0 ],
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 0.8196078431, 0.4862745098, 0.4509803922, 1.0 ],
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 0.8196078431, 0.4862745098, 0.4509803922, 1.0 ],
+									"destination" : [ "obj-70", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"source" : [ "obj-50", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 2220.0, 79.337891000000013, 494.0, 164.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 104.0, 495.0, 162.0 ],
+					"varname" : "overlay",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-34",
@@ -3975,7 +4265,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 226.0, 129.0, 43.0, 54.0 ],
 					"text" : ".",
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3992,7 +4282,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 103.0, 129.0, 43.0, 54.0 ],
 					"text" : ".",
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -4000,7 +4290,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontsize" : 40.0,
 					"id" : "obj-20",
@@ -4039,7 +4329,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "live.numbox[5]"
 				}
 
@@ -4047,7 +4337,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontsize" : 40.0,
 					"id" : "obj-21",
@@ -4087,7 +4377,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "live.numbox[6]"
 				}
 
@@ -4095,7 +4385,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontsize" : 40.0,
 					"id" : "obj-22",
@@ -4136,7 +4426,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "live.numbox[8]"
 				}
 
@@ -4153,7 +4443,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 349.0, 201.0, 43.0, 54.0 ],
 					"text" : ":",
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -4170,7 +4460,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 226.0, 201.0, 43.0, 54.0 ],
 					"text" : ":",
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -4187,7 +4477,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 103.0, 201.0, 43.0, 54.0 ],
 					"text" : ":",
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -4195,7 +4485,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontsize" : 40.0,
 					"id" : "obj-17",
@@ -4236,7 +4526,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "live.numbox[4]"
 				}
 
@@ -4244,7 +4534,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontsize" : 40.0,
 					"id" : "obj-16",
@@ -4285,7 +4575,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "live.numbox[7]"
 				}
 
@@ -4293,7 +4583,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontsize" : 40.0,
 					"id" : "obj-15",
@@ -4334,7 +4624,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "live.numbox[9]"
 				}
 
@@ -4342,7 +4632,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontsize" : 40.0,
 					"id" : "obj-12",
@@ -4383,7 +4673,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "live.numbox[10]"
 				}
 
@@ -5094,7 +5384,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
 					"border" : 1.0,
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium Regular",
 					"fontsize" : 9.5,
@@ -5111,7 +5401,7 @@
 					"presentation_rect" : [ 356.0, 77.0, 71.0, 15.0 ],
 					"rounded" : 0.0,
 					"text" : "127.0.0.1",
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "oscIP"
 				}
 
@@ -6538,7 +6828,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
 					"border" : 1.0,
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium Regular",
 					"fontsize" : 9.5,
@@ -6555,7 +6845,7 @@
 					"presentation_rect" : [ 440.0, 76.0, 45.0, 16.0 ],
 					"rounded" : 0.0,
 					"text" : "4587",
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "oscPort"
 				}
 
@@ -15927,7 +16217,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"id" : "obj-109",
 					"maxclass" : "live.numbox",
@@ -15968,7 +16258,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "mtcOffsetMs"
 				}
 
@@ -17539,7 +17829,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 294.0, 75.0, 17.0, 18.0 ],
 					"text" : ":",
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ]
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ]
 				}
 
 			}
@@ -17555,7 +17845,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 253.0, 75.0, 17.0, 18.0 ],
 					"text" : ":",
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ]
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ]
 				}
 
 			}
@@ -17571,14 +17861,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 212.0, 75.0, 17.0, 18.0 ],
 					"text" : ":",
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ]
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontname" : "Ableton Sans Medium Regular",
 					"id" : "obj-81",
@@ -17618,7 +17908,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "mtcOffsetFrames"
 				}
 
@@ -17626,7 +17916,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontname" : "Ableton Sans Medium Regular",
 					"id" : "obj-82",
@@ -17666,7 +17956,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "mtcOffsetSeconds"
 				}
 
@@ -17674,7 +17964,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontname" : "Ableton Sans Medium Regular",
 					"id" : "obj-83",
@@ -17714,7 +18004,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "mtcOffsetMinutes"
 				}
 
@@ -17722,7 +18012,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"focusbordercolor" : [ 0.309804, 0.309804, 0.309804, 1.0 ],
 					"fontname" : "Ableton Sans Medium Regular",
 					"id" : "obj-84",
@@ -17763,7 +18053,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "mtcOffsetHours"
 				}
 
@@ -21771,7 +22061,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-7",
-					"items" : [ "AU DLS Synth 1", ",", "Video Sync MMC In (virtual)", ",", "Video Sync HUI In 1 (virtual)", ",", "Video Sync HUI In 2 (virtual)", ",", "Video Sync HUI In 3 (virtual)", ",", "Video Sync HUI In 4 (virtual)", ",", "Video Sync Trigger In (virtual)", ",", "Video Sync MTC In (virtual)", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -21780,7 +22070,7 @@
 					"patching_rect" : [ 1846.0, 544.5, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 355.0, 39.0, 132.0, 20.0 ],
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "mtcMIDIPort"
 				}
 
@@ -21788,7 +22078,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"id" : "obj-8",
 					"ignoreclick" : 1,
 					"maxclass" : "live.menu",
@@ -21827,8 +22117,8 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
-					"tricolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
+					"tricolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "live.menu[1]"
 				}
 
@@ -24901,7 +25191,7 @@
 					"patching_rect" : [ 1408.0, 377.0, 84.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 251.0, 39.0, 84.0, 20.0 ],
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "mtcTimecode"
 				}
 
@@ -26691,7 +26981,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-					"bordercolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"bordercolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"id" : "obj-4",
 					"ignoreclick" : 1,
 					"maxclass" : "live.menu",
@@ -26730,8 +27020,8 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
-					"tricolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
+					"textcolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
+					"tricolor" : [ 0.647059, 0.647059, 0.647059, 1.0 ],
 					"varname" : "live.menu"
 				}
 
@@ -26875,296 +27165,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1574.0, 123.0, 79.0, 22.0 ],
 					"text" : "prepend ping"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"embed" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-89",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 413.0, 271.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 1,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 282.0, 101.0, 110.0, 22.0 ],
-									"text" : "routepass textcolor"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.819607843137255, 0.486274509803922, 0.450980392156863, 1.0 ],
-									"id" : "obj-268",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 76.0, 23.0, 58.0, 22.0 ],
-									"text" : "r bgColor"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.819607843137255, 0.486274509803922, 0.450980392156863, 1.0 ],
-									"id" : "obj-36",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 282.0, 62.0, 103.0, 22.0 ],
-									"text" : "r animationColors"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-1",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 22.0, 23.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 22.0, 101.0, 130.0, 22.0 ],
-									"text" : "setConnectionState $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Ableton Sans Medium Regular",
-									"fontsize" : 9.5,
-									"id" : "obj-70",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 22.0, 236.0, 140.0, 18.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 178.0, 86.0, 139.0, 18.0 ],
-									"text" : "Connected to LiveMTC Bridge",
-									"textcolor" : [ 1.0, 0.72549, 0.003922, 1.0 ],
-									"textjustification" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-55",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 162.0, 101.0, 105.0, 22.0 ],
-									"text" : "setActiveCircle $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-50",
-									"maxclass" : "newobj",
-									"numinlets" : 5,
-									"numoutlets" : 4,
-									"outlettype" : [ "int", "", "", "int" ],
-									"patching_rect" : [ 162.0, 62.0, 61.0, 22.0 ],
-									"text" : "counter 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-47",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 162.0, 23.0, 126.0, 22.0 ],
-									"text" : "qmetro 250 @active 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"border" : 0,
-									"filename" : "connectionAnimation.js",
-									"id" : "obj-2",
-									"jsarguments" : [ 0 ],
-									"maxclass" : "jsui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 22.0, 170.0, 69.0, 19.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 213.0, 64.0, 69.0, 19.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 0.0,
-									"bgcolor" : [ 0.141176, 0.141176, 0.141176, 1.0 ],
-									"bordercolor" : [ 0.997388422489166, 1.0, 0.041325956583023, 1.0 ],
-									"id" : "obj-152",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 76.0, 62.0, 22.0, 22.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 495.0, 162.0 ],
-									"proportion" : 0.5,
-									"rounded" : 0
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-70", 0 ],
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-152", 0 ],
-									"source" : [ "obj-268", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"color" : [ 0.8196078431, 0.4862745098, 0.4509803922, 1.0 ],
-									"destination" : [ "obj-4", 0 ],
-									"source" : [ "obj-36", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"color" : [ 0.8196078431, 0.4862745098, 0.4509803922, 1.0 ],
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-4", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"color" : [ 0.8196078431, 0.4862745098, 0.4509803922, 1.0 ],
-									"destination" : [ "obj-70", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-50", 0 ],
-									"source" : [ "obj-47", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-55", 0 ],
-									"source" : [ "obj-50", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-55", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 2220.0, 79.337891000000013, 494.0, 164.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 104.0, 495.0, 162.0 ],
-					"varname" : "overlay",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -29170,42 +29170,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "connectionAnimation.js",
-				"bootpath" : "~/LiveMTC/Shared Dependencies",
+				"bootpath" : "~/Documents/GitHub/LiveMTC/Shared Dependencies",
 				"patcherrelativepath" : "../../Shared Dependencies",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delayList.maxpat",
-				"bootpath" : "~/LiveMTC/LiveMTC Bridge/patchers",
+				"bootpath" : "~/Documents/GitHub/LiveMTC/LiveMTC Bridge/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "patcherSize.js",
-				"bootpath" : "~/LiveMTC/LiveMTC Bridge/code",
+				"bootpath" : "~/Documents/GitHub/LiveMTC/LiveMTC Bridge/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "quickAccessColors.maxpat",
-				"bootpath" : "~/LiveMTC/LiveMTC Bridge/patchers",
+				"bootpath" : "~/Documents/GitHub/LiveMTC/LiveMTC Bridge/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "saveSetting.maxpat",
-				"bootpath" : "~/LiveMTC/LiveMTC Bridge/patchers",
+				"bootpath" : "~/Documents/GitHub/LiveMTC/LiveMTC Bridge/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sharedVersionNumber.js",
-				"bootpath" : "~/LiveMTC/Shared Dependencies",
+				"bootpath" : "~/Documents/GitHub/LiveMTC/Shared Dependencies",
 				"patcherrelativepath" : "../../Shared Dependencies",
 				"type" : "TEXT",
 				"implicit" : 1
