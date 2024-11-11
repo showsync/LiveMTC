@@ -31,7 +31,7 @@ jobs:
     - name: add url file to artifact folder
       run: cp _LiveMTC-Manual.url dist/_LiveMTC-Manual.url
       
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: dist
         path: dist/
