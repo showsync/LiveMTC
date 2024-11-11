@@ -1,16 +1,16 @@
 {
-	"name" : "Live MTC Bridge",
+	"name" : "LiveMTC Bridge",
 	"version" : 1,
 	"creationdate" : 3675930708,
-	"modificationdate" : 3802441642,
-	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
+	"modificationdate" : 3814172230,
+	"viewrect" : [ 91.0, 406.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Live MTC Bridge.maxpat" : 			{
+			"LiveMTC Bridge.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -39,8 +39,24 @@
 				"local" : 1
 			}
 ,
+			"connectionAnimation.js" : 			{
+				"kind" : "javascript",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/LiveMTC/Shared Dependencies",
+					"projectrelativepath" : "../Shared Dependencies"
+				}
+
+			}
+,
 			"sharedVersionNumber.js" : 			{
-				"kind" : "javascript"
+				"kind" : "javascript",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/LiveMTC/Shared Dependencies",
+					"projectrelativepath" : "../Shared Dependencies"
+				}
+
 			}
 
 		}
