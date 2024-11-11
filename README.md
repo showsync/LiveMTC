@@ -23,12 +23,10 @@ Deploying is only done by Showsync.
 
 ### Build:
 
-- Make sure the patch is saved in the unconnected "device off" state.
+- Open the `LiveMTC Bridge.maxproj` file in Max. 
+- Make sure the `LiveMTC Bridge.maxpat` patcher is in the "disconnected"/"device off" state.
+- In the `[standalone]` object in the `LiveMTC Bridge.maxpat` patcher, make sure that the same valid path is set for the application icon for the respective OS. If you're on macOS for example, only update the path to the macOS icon if necessary. 
 - Build the application from Max (to a folder App)
-    - In the build script, include every folder inside the `LiveMTC Bridge` folder, except for the `other` folder.
-    - In the build script, include the path to the icon for the respective OS. Then, replace the word "include" with "appicon".
-    - In the `[standalone]` object in the `LiveMTC Bridge.maxpat` patcher, make sure that the same valid path is set for the application icon for the respective OS. If you're on macOS for example, only update the path to the macOS icon if necessary. 
-    - Build the application.
 - After the application is build, perform the next OS specific steps:
     - macOS: 
         - Add this CFBundleName field under <key>CFBundleExecutable</key>:
