@@ -19,19 +19,19 @@ jobs:
         registry-url: 'https://npm.pkg.github.com'
 
     - name: Check
-      run: npx @showsync/amxd-tools check --source MTC\ project/ --dependency MTC\ project/ --all
+      run: npx @showsync/amxd-tools check --source "MTC project" "Shared Dependencies" --dependency "MTC project" "Shared Dependencies" --all
       env:
         NODE_AUTH_TOKEN: ${{ secrets.BUILD_READ_PACKAGES }}
 
     - name: Freeze
-      run: npx @showsync/amxd-tools freeze --source MTC\ project/ --dependency MTC\ project/ --target dist/
+      run: npx @showsync/amxd-tools freeze --source "MTC project" "Shared Dependencies" --dependency "MTC project" "Shared Dependencies" --target dist/
       env:
         NODE_AUTH_TOKEN: ${{ secrets.BUILD_READ_PACKAGES }}
         
     - name: add url file to artifact folder
       run: cp _LiveMTC-Manual.url dist/_LiveMTC-Manual.url
       
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: dist
         path: dist/
