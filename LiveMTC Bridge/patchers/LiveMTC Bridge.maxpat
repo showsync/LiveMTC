@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 863.0, 774.0 ],
+		"rect" : [ 80.0, 121.0, 495.0, 292.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -353,19 +353,6 @@
 					}
 ,
 					"text" : "p playStop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-151",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2142.0, 620.5, 50.0, 22.0 ],
-					"text" : "midiout"
 				}
 
 			}
@@ -22494,7 +22481,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 562.0, 506.5, 190.0, 33.0 ],
-									"presentation_linecount" : 3,
 									"text" : "The FPS code should occupy the 6th and 7th bits of the hours byte"
 								}
 
@@ -22582,7 +22568,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 109.0, 61.5, 291.0, 37.0 ],
+													"patching_rect" : [ 109.0, 61.5, 292.0, 37.0 ],
 													"text" : "The 6th and 7th bits of the hours byte are the 2nd and 3rd bit of the high nibble of the hours byte"
 												}
 
@@ -28272,16 +28258,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-151", 0 ],
-					"source" : [ "obj-25", 1 ]
+					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 1896.5, 626.097509205341339, 1833.20667564868927, 626.097509205341339, 1833.20667564868927, 517.282236516475677, 1855.5, 517.282236516475677 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 1896.5, 626.097509205341339, 1833.20667564868927, 626.097509205341339, 1833.20667564868927, 517.282236516475677, 1855.5, 517.282236516475677 ],
-					"source" : [ "obj-25", 0 ]
+					"destination" : [ "obj-79", 0 ],
+					"source" : [ "obj-25", 1 ]
 				}
 
 			}
